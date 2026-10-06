@@ -2,7 +2,7 @@
 
 I'm an AI engineer who makes production LLM agents reliable. My focus is the unglamorous half of applied AI: evaluation, failure analysis, retrieval grounding, tool-call validation, and knowing when an agent should hand off to a human.
 
-🏥 **Most recently at Hippocratic AI**, I worked on a production multi-turn voice agent deployed into a large multi-hospital health system. I root-caused 300+ failed production conversations into 240+ evaluation scenario cases, built the regression suite behind them, and hardened the agent layer: invalid tool calls down 70%, missed escalations down 45%, grounded-response accuracy up 12%, p95 latency down 25%, and 8 regressions caught before release.
+🏥 **Most recently at Hippocratic AI**, I developed and improved production healthcare voice AI agents built on the Polaris constellation architecture, supporting post-discharge patient conversations across a multi-hospital health system. I root-caused 300+ flagged production conversations into 240+ evaluation scenarios and regression datasets, then improved retrieval (chunking, embeddings, reranking, grounding checks), tool-call validation, escalation logic and the real-time ASR → LLM → TTS pipeline: invalid tool calls down 70%, missed escalations down 45%, grounded-response accuracy up 12%, p95 latency down 25%, and 8 regressions caught before release.
 
 🚧 **Currently building** Silent Failure Detection, a label-free degradation monitoring framework (8,209 lines of Python, 261 tests) that catches production model decay long before ground-truth labels arrive. It found a credit model whose AUC held flat while its calibration error widened 27x.
 
