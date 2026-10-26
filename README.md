@@ -2,11 +2,15 @@
 
 I'm an AI engineer who makes production LLM agents reliable. My focus is the unglamorous half of applied AI: evaluation, failure analysis, retrieval grounding, tool-call validation, and knowing when an agent should hand off to a human.
 
-🏥 **Most recently at Hippocratic AI**, I developed and improved production healthcare voice AI agents built on the Polaris constellation architecture, supporting post-discharge patient conversations across a multi-hospital health system. I root-caused 300+ flagged production conversations into 240+ evaluation scenarios and regression datasets, then improved retrieval (chunking, embeddings, reranking, grounding checks), tool-call validation, escalation logic and the real-time ASR → LLM → TTS pipeline: invalid tool calls down 70%, missed escalations down 45%, grounded-response accuracy up 12%, p95 latency down 25%, and 8 regressions caught before release.
+💼 **Currently a Software Engineer Fellow at Handshake AI** (since Oct 2026), where I author programming and system-design challenges that benchmark the reasoning and code generation of leading AI models, evaluate AI-generated code for correctness, efficiency and reliability, build visual question answering (VQA) datasets for vision-language models, and run rubric-based, human-in-the-loop evaluation of model outputs across code, audio, image and text.
+
+🏥 **Before that, at Hippocratic AI**, I developed and improved production healthcare voice AI agents built on the Polaris constellation architecture, supporting post-discharge patient conversations across a multi-hospital health system. I root-caused 300+ flagged production conversations into 240+ evaluation scenarios and regression datasets, then improved retrieval (chunking, embeddings, reranking, grounding checks), tool-call validation, escalation logic and the real-time ASR → LLM → TTS pipeline: invalid tool calls down 70%, missed escalations down 45%, grounded-response accuracy up 12%, p95 latency down 25%, and 8 regressions caught before release.
 
 🔍 **Recently finished** Silent Failure Detection, a label-free degradation monitoring framework (317 tests; PySpark, MLflow, CI). Backtesting a frozen credit model across 35 months of real loans, AUC held flat while its calibration gap widened 27x, and the standard drift detectors could not give a trustworthy early warning: most fired almost every month.
 
 🚧 **Currently building** HoldLine, a voice agent that places real, time-limited holds on bakery inventory and checks every answer against that turn's tool results.
+
+🤝 **Co-designed** [Fundproof](https://github.com/Bhavani-abhavi/Fundproof), a two-person project: a two-sided lending copilot for small-business loans. I co-wrote the specs, build prompts and evaluation protocol and review the work; Claude Code implemented it. It has a LangGraph agent that always stops at a human checkpoint, a read-only MCP server and a Monte Carlo feasibility simulator, all measured on SYNTHETIC data and not deployed.
 
 🔬 **Also working on** RAG systems over pgvector with cited grounding (ClinIQ, 4th place at the NSF NRT Research-A-Thon 2026), data pipelines that fail loudly instead of silently, and multimodal generation with kinematics-conditioned Stable Diffusion.
 
